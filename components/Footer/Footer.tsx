@@ -1,5 +1,6 @@
 import React from "react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-r from-blue-400 to-purple-600 flex items-center justify-center">
@@ -20,6 +21,11 @@ const Footer = () => {
         </nav>
         <div className="mt-6 text-center text-gray-300">
           © {new Date().getFullYear()} Wasim . All rights reserved.
+        </div>
+        <div className="mt-2 flex p-10 justify-center space-x-12">
+          <FontAwesomeIcon icon={faTwitter} className="text-gray-300 hover:text-white" />
+          <FontAwesomeIcon icon={faFacebook} className="text-gray-300 hover:text-white" />
+          <FontAwesomeIcon icon={faLinkedin} className="text-gray-300 hover:text-white" />
         </div>
       </div>
     </footer>

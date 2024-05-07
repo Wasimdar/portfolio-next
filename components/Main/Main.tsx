@@ -21,7 +21,8 @@ export default function Main() {
               one pixel at a time!
             </p>
           </div>
-          <Projects />
+          <Projects id={0} name={""} html_url={""} fork={false} archived={false} />
+          <ProjectsPage/>
         </div>
       </main>
       <SlideShow />

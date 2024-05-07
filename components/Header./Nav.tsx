@@ -7,8 +7,15 @@ const Nav = () => {
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
-            <Link href="/" className="text-white text-2xl font-bold">
-              Our Logo
+            <Link
+              href="/"
+              className="text-white text-2xl font-bold flex items-center"
+            >
+              <h1 className="flex-none cursor-pointer text-2xl text-white mr-1">
+                <span className="text-yellow-300">Wa</span>sim
+              </h1>
+              <span className="text-white">Ah</span>
+              <span className="text-yellow-300">mad</span>
             </Link>
           </div>
           <div className="md:hidden">
