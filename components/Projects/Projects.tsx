@@ -9,7 +9,7 @@ const Projects = () => {
       .then((response) => response.json())
       .then((data) => {
         const filteredProjects = data.filter(
-          (repo) => !repo.fork && !repo.archived
+          (repo: { fork: any; archived: any; }) => !repo.fork && !repo.archived
         );
         setProjects(filteredProjects);
       })
@@ -23,14 +23,14 @@ const Projects = () => {
       <h2 className="text-xl md:text-2xl font-semibold mb-4">My Projects</h2>
       <ul className="text-gray-700">
         {projects.map((project) => (
-          <li key={project.id} className="mb-2">
+          <li key={project} className="mb-2">
             <a
-              href={project.html_url}
+              href={project}
               target="_blank"
               rel="noopener noreferrer"
               className="block hover:text-blue-600 transition duration-300 ease-in-out"
             >
-                 <span className="font-semibold">{project.name}</span>
+                 <span className="font-semibold">{project}</span>
             </a>
           </li>
         ))}

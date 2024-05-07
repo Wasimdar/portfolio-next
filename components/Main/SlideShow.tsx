@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 import React, { useState, useEffect } from "react";
 
@@ -17,6 +18,8 @@ const Slideshow = () => {
     }, 3000); // Change interval duration (3 seconds here)
 
     return () => clearInterval(intervalId); // Cleanup on unmount
+  
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [imageUrls.length]);
 
   const handlePrev = () => {

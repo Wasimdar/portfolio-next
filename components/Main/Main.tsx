@@ -11,19 +11,20 @@ export default function Main() {
           <div className="bg-white shadow-md p-4 md:p-6 rounded-lg">
             <h2 className="text-xl md:text-2xl font-semibold mb-4">About Me</h2>
             <p className="text-gray-700">
-              Welcome to my world! I'm Wasim, a multifaceted Software Engineer
-              with a zest for innovation and a penchant for problem-solving.
-              Crafting digital wonders is not just my job, It's my passion. From
-              elegant designs to seamless user experiences, I thrive on turning
-              ideas into reality. Join me on this exhilarating journey where
-              creativity knows no bounds and possibilities are endless.
-              Together, let's shape the future, one pixel at a time!"
+              Welcome to my world! I&apos;m Wasim, a multifaceted Software
+              Engineer with a zest for innovation and a penchant for
+              problem-solving. Crafting digital wonders is not just my job,
+              It&apos;s my passion. From elegant designs to seamless user
+              experiences, I thrive on turning ideas into reality. Join me on
+              this exhilarating journey where creativity knows no bounds and
+              possibilities are endless. Together, let&apos;s shape the future,
+              one pixel at a time!
             </p>
           </div>
-          <Projects/>
+          <Projects />
         </div>
       </main>
-      <SlideShow/>
+      <SlideShow />
     </section>
   );
 }
