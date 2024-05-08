@@ -32,6 +32,7 @@ const Slideshow = () => {
   return (
     <div className="max-w-7xl rounded-md mx-auto px-4 sm:px-6 lg:px-8 py-10 relative">
       <div className="relative rounded-md overflow-hidden">
+        
         <img
           className="h-64 sm:h-80 w-full rounded-md transition duration-500 ease-in-out hover:shadow-lg"
           src={imageUrls[currentIndex]}

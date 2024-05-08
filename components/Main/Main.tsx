@@ -8,7 +8,7 @@ export default function Main() {
     <section className="bg-gradient-to-r from-blue-400 to-purple-600">
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-white shadow-md p-4 md:p-6 rounded-lg">
+          <div className="bg-white shadow-md p-4 md:p-6 rounded-lg hover:rotate-0 hover:translate-x scale-50 hover:scale-100 transition duration-300">
             <h2 className="text-xl md:text-2xl font-semibold mb-4">About Me</h2>
             <p className="text-gray-700">
               Welcome to my world! I&apos;m Wasim, a multifaceted Software
@@ -21,8 +21,15 @@ export default function Main() {
               one pixel at a time!
             </p>
           </div>
-          <Projects id={0} name={""} html_url={""} fork={false} archived={false} />
-          <ProjectsPage/>
+
+          <Projects
+            id={0}
+            name={""}
+            html_url={""}
+            fork={false}
+            archived={false}
+          />
+          <ProjectsPage />
         </div>
       </main>
       <SlideShow />

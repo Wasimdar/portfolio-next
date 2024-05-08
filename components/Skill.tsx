@@ -7,11 +7,16 @@ const Skill = () => {
       <div className="max-w-4xl mx-auto p-8">
         <div className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0">
           <div className="md:w-1/2 flex-shrink-0">
-            <img
-              src="https://ca.slack-edge.com/T065K99BM-U06GF04PYLF-a227f0f83335-512"
-              alt="Personal Photo"
-              className="w-64 h-64 rounded-full shadow-lg animate-float"
-            />
+            <div className="h-32 w-32 relative cursor-pointer mb-5">
+              <div className="absolute inset-1 bg-white opacity-35 rounded-lg shadow-8xl"></div>
+              <div className="absolute inset-0 transform hover:-translate-x-10 transition duration-300">
+                <img
+                  src="https://ca.slack-edge.com/T065K99BM-U06GF04PYLF-a227f0f83335-512"
+                  alt="Personal Photo"
+                  className="w-full h-full rounded-2 animate-float absolute inset-0 transform hover:rotate-45 hover:shadow-lg transition duration-300"
+                />
+              </div>
+            </div>
           </div>
           <div className="md:w-1/2 text-center md:text-left">
             <h1 className="text-4xl font-bold text-white mb-4 animate-bounce">
