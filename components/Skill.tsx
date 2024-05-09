@@ -3,7 +3,7 @@ import React from "react";
 
 const Skill = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-fuchsia-600 to-neutral-900 flex items-center justify-center">
+    <div className="min-h-screen bg-gradient-to-r from-slate-900 to-slate-700 flex items-center justify-center">
       <div className="max-w-4xl mx-auto p-8">
         <div className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0">
           <div className="md:w-1/2 flex-shrink-0">
@@ -13,7 +13,7 @@ const Skill = () => {
                 <img
                   src="https://ca.slack-edge.com/T065K99BM-U06GF04PYLF-a227f0f83335-512"
                   alt="Personal Photo"
-                  className="w-full h-full rounded-2 animate-float absolute inset-0 transform hover:rotate-45 hover:shadow-lg transition duration-300"
+                  className="w-full h-full rounded-2 animate-float absolute inset-0 transform hover:rotate-45 transition duration-300 hover:scale-110 hover:shadow-lg"
                 />
               </div>
             </div>

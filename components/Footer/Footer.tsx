@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r bg-gradient-to-r from-fuchsia-600 to-neutral-900  flex items-center justify-center">
+    <footer className="bg-gradient-to-r from-slate-900 to-slate-700  flex items-center justify-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <nav className="flex justify-center space-x-6">
           <a href="#" className="text-gray-300 hover:text-white">

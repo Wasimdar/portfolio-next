@@ -25,11 +25,10 @@ const Projects = (project: Project) => {
   }, []);
 
   return (
-    <div className="relative bg-gradient-to-r from-fuchsia-900 to-slate-900 text-white shadow-md p-4 md:p-6 rounded-lg overflow-hidden hover:shadow-lg transition duration-300">
-    <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl hover:bg-opacity-0 transition duration-300"></div>
-    <div className="transform hover:-translate-x-1 hover:-translate-y-1 transition duration-300">
-      <h2 className="text-xl md:text-2xl font-semibold mb-4">
-          My Projects</h2>
+    <div className="relative bg-gradient-to-r from-slate-900 to-slate-700 p-4 md:p-6 rounded-lg overflow-hidden hover:shadow-lg transition duration-300">
+      <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl hover:bg-opacity-0 transition duration-300"></div>
+      <div className=" text-white transform hover:-translate-x-1 hover:-translate-y-1 transition duration-300">
+        <h2 className="text-xl md:text-2xl font-semibold mb-4">My Projects</h2>
         <ul className="">
           {projects.map((pro: Project) => (
             <li key={pro.id} className="mb-2">
