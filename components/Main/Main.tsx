@@ -1,6 +1,8 @@
 import React from "react";
 import SlideShow from "./SlideShow";
 import Projects from "../Projects/Projects";
+import Skills from "./MySkills";
+
 
 
 export default function Main() {
@@ -27,6 +29,8 @@ export default function Main() {
             </div>
           </div>
 
+        <Skills/>
+
           <div className="relative bg-gradient-to-r from-slate-900 to-slate-700 p-4 md:p-6 rounded-lg overflow-hidden hover:shadow-lg transition duration-300">
             <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl hover:bg-opacity-0 transition duration-300"></div>
             <div className="transform hover:-translate-x-1 hover:-translate-y-1 transition duration-300">
@@ -37,20 +41,20 @@ export default function Main() {
                 <h3 className="text-lg font-semibold text-white mb-2">
                   Bachelor's Degree in Computer Science
                 </h3>
-                <p className="text-white">University of XYZ, 2017 - 2021</p>
+                <p className="text-white">Chandigrah Group of Colleges Landran, 2021 - 2024</p>
               </div>
               <div className="mb-4">
                 <h3 className="text-lg font-semibold text-white mb-2">
-                  Online Courses
+                  Web Dev Course 
                 </h3>
-                <p className="text-white">Various platforms, ongoing</p>
+                <p className="text-white"> NEXTJS & NESTJS , ongoing</p>
               </div>
               <div className="mb-4">
                 <h3 className="text-lg font-semibold text-white mb-2">
-                  Certifications
+                  Certifications  Reactjs & Redux Toolkit , Nextjs
                 </h3>
                 <p className="text-white">
-                  Certification Name, Issuing Organization
+                   Source : Udemy.com
                 </p>
               </div>
             </div>
