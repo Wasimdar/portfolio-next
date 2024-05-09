@@ -3,11 +3,11 @@ import React from "react";
 
 const Skill = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-400 to-purple-600 flex items-center justify-center">
+    <div className="min-h-screen bg-gradient-to-r from-fuchsia-600 to-neutral-900 flex items-center justify-center">
       <div className="max-w-4xl mx-auto p-8">
         <div className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0">
           <div className="md:w-1/2 flex-shrink-0">
-            <div className="h-32 w-32 relative cursor-pointer mb-5">
+            <div className="h-40 w-40 relative cursor-pointer mb-5">
               <div className="absolute inset-1 bg-white opacity-35 rounded-lg shadow-8xl"></div>
               <div className="absolute inset-0 transform hover:-translate-x-10 transition duration-300">
                 <img

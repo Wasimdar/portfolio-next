@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Nav = () => {
   return (
-    <nav className="bg-gradient-to-r from-blue-200 to-purple-600">
+    <nav className="bg-gradient-to-r from-fuchsia-600 to-neutral-900 ">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">

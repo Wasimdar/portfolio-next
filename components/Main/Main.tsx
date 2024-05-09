@@ -5,21 +5,55 @@ import ProjectsPage from "../Projects/ProjectsPage";
 
 export default function Main() {
   return (
-    <section className="bg-gradient-to-r from-blue-400 to-purple-600">
+    <section className="bg-gradient-to-r from-fuchsia-600 to-neutral-900 ">
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-white shadow-md p-4 md:p-6 rounded-lg hover:rotate-0 hover:translate-x scale-50 hover:scale-100 transition duration-300">
-            <h2 className="text-xl md:text-2xl font-semibold mb-4">About Me</h2>
-            <p className="text-gray-700">
-              Welcome to my world! I&apos;m Wasim, a multifaceted Software
-              Engineer with a zest for innovation and a penchant for
-              problem-solving. Crafting digital wonders is not just my job,
-              It&apos;s my passion. From elegant designs to seamless user
-              experiences, I thrive on turning ideas into reality. Join me on
-              this exhilarating journey where creativity knows no bounds and
-              possibilities are endless. Together, let&apos;s shape the future,
-              one pixel at a time!
-            </p>
+          <div className="relative bg-gradient-to-r from-fuchsia-900 to-slate-900 text-white shadow-md p-4 md:p-6 rounded-lg overflow-hidden hover:shadow-lg transition duration-300">
+            <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl hover:bg-opacity-0 transition duration-300"></div>
+            <div className="transform hover:-translate-x-1 hover:-translate-y-1 transition duration-300">
+              <h2 className="text-xl md:text-2xl font-semibold mb-4">
+                About Me
+              </h2>
+              <p className="">
+                Welcome to my world! I&apos;m Wasim, a multifaceted Software
+                Engineer with a zest for innovation and a penchant for
+                problem-solving. Crafting digital wonders is not just my job,
+                It&apos;s my passion. From elegant designs to seamless user
+                experiences, I thrive on turning ideas into reality. Join me on
+                this exhilarating journey where creativity knows no bounds and
+                possibilities are endless. Together, let&apos;s shape the
+                future, one pixel at a time!
+              </p>
+            </div>
+          </div>
+
+          <div className="relative bg-gradient-to-r from-fuchsia-900 to-slate-900 text-white shadow-md p-4 md:p-6 rounded-lg overflow-hidden hover:shadow-lg transition duration-300">
+            <div className="absolute inset-0 bg-white opacity-25 rounded-lg shadow-2xl hover:bg-opacity-0 transition duration-300"></div>
+            <div className="transform hover:-translate-x-1 hover:-translate-y-1 transition duration-300">
+              <h2 className="text-xl md:text-2xl font-semibold mb-4">
+                Education
+              </h2>
+              <div className="mb-4">
+                <h3 className="text-lg font-semibold text-white mb-2">
+                  Bachelor's Degree in Computer Science
+                </h3>
+                <p className="text-white">University of XYZ, 2017 - 2021</p>
+              </div>
+              <div className="mb-4">
+                <h3 className="text-lg font-semibold text-white mb-2">
+                  Online Courses
+                </h3>
+                <p className="text-white">Various platforms, ongoing</p>
+              </div>
+              <div className="mb-4">
+                <h3 className="text-lg font-semibold text-white mb-2">
+                  Certifications
+                </h3>
+                <p className="text-white">
+                  Certification Name, Issuing Organization
+                </p>
+              </div>
+            </div>
           </div>
 
           <Projects
