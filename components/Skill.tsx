@@ -20,27 +20,20 @@ const Skill = () => {
           </div>
           <div className="md:w-1/2 text-center md:text-left">
             <h1 className="text-4xl font-bold text-white mb-4 animate-bounce">
-              Hi, <span className="text-green-400">I&rsquo;m</span>{" "}
+              <span className=" text-pink-500 ">H</span>i,{" "}
+              <span className="text-green-400">I&rsquo;m</span>{" "}
               <span className="text-white">
                 Wa
-                <span className="text-yellow-300">si</span>m
+                <span className="text-pink-500">si</span>m
               </span>{" "}
-              <span className="text-yellow-300">Ahmad</span>
+              Ahmad
             </h1>
             <p className="text-lg text-white mb-6 animate-pulse ">
-              <span className="text-yellow-300">Full</span> Stack{" "}
-              <span className="text-yellow-300">Web</span> Developer
+              Full Stack Web Developer
             </p>
             <p className="text-lg text-white animate-pulse">
-              <span className="text-yellow-300">Wel</span>come to{" "}
-              <span className="text-yellow-300">my</span>{" "}
-              <span className="text-white">portfolio!</span>
-              {"  "}
-              <span className="text-yellow-300">I specialize</span> in building{" "}
-              <span className="text-yellow-300">modern</span> and{" "}
-              <span className="text-white">responsive</span>{" "}
-              <span className="text-yellow-300">Full Stack </span> web{" "}
-              <span className="text-yellow-300">applications</span>
+              Welcome to my Portfolio! I specialize in buildingx modern and
+              responsive Full Stack web applications
             </p>
           </div>
         </div>
